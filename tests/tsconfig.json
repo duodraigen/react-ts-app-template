@@ -1,0 +1,9 @@
+{
+	"extends": "../tsconfig.json",
+	"include": ["./"],
+	"compilerOptions": {
+		"lib": [],
+		"composite": false,
+		"types": ["node", "jsdom"]
+	}
+}
